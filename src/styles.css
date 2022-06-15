@@ -21,6 +21,8 @@ button{
 .header{
     margin: 40px 20px 0;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
 }
 
 li{
@@ -44,17 +46,42 @@ li{
 }
 
 .navbar{
-    width: 70%;
+    width: 65%;
     text-align: left;
-    color: #025157;
-    font-weight: 500;
+    color: #25157;
+    font-weight: bold;
+    height: 40px;
+    font-family: sans-serif;
 }
 
-.actions{
+li{
+    display: inline;
+    margin: 0 25px;
+    color: #025157;
+}
+
+/*.actions{
     width: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 600;
+}*/
+
+.actions > *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.actions a{
+    color: #67b54b;
+}
+
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0px;
+    border-radius: 5px;
 }
 
 .main{
